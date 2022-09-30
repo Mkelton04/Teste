@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Istudy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+            <a class="logo">Istudy</a>
+            <div class="conteudoNavbar">
+                <a href="#sistema"> Sistema Flashcard </a>
+                <a href="#game"> Gameficação dos estudos </a>
+                <a href="#funcionalidade"> Funcionalidades </a>
+                <a>
+                <button class="buttonDownload">
+                    Baixe o App
+                </button>
+                </a>     
+            </div>
+            <a class='hamburguer'>
+              <i></i>
+            </a>
+        </div>
+
+
+      </nav>
+    </header>
+    <div class="main">
+
+      <div class="sistema">
+          <div class="teste">
+              <div class="contentSistem">
+                <p class="title">SEJA BEM-VINDO AO ISTUDY!</p>
+                <p class="text">Um aplicativo de estudo, que mistura o </br> sistema de flashcard com desafios </br> online.</p>
+                <button class="button-32" role="button">Baixe o APP</button>
+              </div>
+
+              <div class="image">
+                <img src="/login.png">
+              </div>
+          </div> 
+     </div>
+
+      <div class="game">
+      
+        <div class="gif">
+          <img src="./flashcard.jpg">
+        </div>
+
+        <div class="texto"> 
+          <p class="SubTitle">Flashcards</p>
+
+            <p class="text">São cartões que ajudam a memorizar e testar seus </br> conhecimentos. Indicado para anotar fórmulas e </br> 
+              conceitos importantes a fim de memorizar o conteúdo. </br>
+              <p class="text">Assim, os flashcards podem ter na frente uma pergunta </br> 
+              e no verso a resposta, além disso, podem ser feitos com </br> tópicos ou palavras-chave.</p>
+            </p>
+
+            <div class="textDivision">
+
+            
+            <p class="SubTitle">Flashcards no Istudy</p>
+
+            <p class="text">Você poderá criar flashcards e acessa-los a qualquer </br> momento em nosso aplicativo.
+            </p>
+
+            </div>
+        </div>
+        
+      </div>
+
+      <div class="gameOnline">
+        
+
+        <div class="texto"> 
+          <p class="SubTitle">Jogo de Pergunta e Resposta</p>
+
+            <p class="text">Você também pode jogar o modo online para testar o seu conhecimento.
+              O jogo basea se em um sistema de Quiz,
+              onde dois jogadores se desafiam para responder 10 perguntas em um determinado tempo. No final quem tiver mais acertos se torna o vencedor.</p>
+              <button class="button-32" role="button">Use já!</button>
+
+        </div>
+
+        <div class="gif">
+          <img src="./online.jpg">
+        </div>
+      </div>
+
+      <div class="funcionalidades">
+        <div class="gif">
+          <img src="./calendario.png">
+        </div>
+
+        <div class="texto"> 
+          <p class="SubTitle">Calendário e Agenda</p>
+
+            <p class="text">Com o calendário você pode salvar datas importantes. Como provas, trabalhos e entre outros.</p>
+
+            <div class="textDivision">
+
+            
+            <p class="SubTitle">Como funciona?</p>
+
+            <p class="text">Os eventos salvos são organizados por ordem cronológica, é possível edita-los ou exclui-los a qualquer momento. O evento mais próximo será exibido na tela inicial do app.
+            </p>
+
+            </div>
+        </div>
+      </div>
+
+      <div class="funcionalidades">
+        <div class="texto"> 
+          <p class="SubTitle">Ranks do nosso app</p>
+
+            <p class="text">A cada vitoria conquistada no modo online, você ganha pontos que te ajudam a subir no rank..</p>
+
+            <div class="textDivision">
+
+            
+            <p class="SubTitle">Como funciona?</p>
+
+            <p class="text">Os eventos salvos são organizados por ordem cronológica, é possível edita-los ou exclui-los a qualquer momento. O evento mais próximo será exibido na tela inicial do app.
+            </p>
+
+            </div>
+        </div>
+
+        <div class="gif">
+          <img src="./rank.png">
+        </div>
+
+      </div>
+    
+
+
+    </div>
+      <div class="navbarbottom">
+        <div class="divIcon">
+          <a>
+            <button class="buttonIcon">
+              <img src="/gmail-icon.png">
+            </button>
+          </a>
+          
+          <a>
+            <button class="buttonIcon">
+              <img src="/instagram-icon.png">
+            </button>
+          </a>    
+
+          <a>
+            <button class="buttonIcon">
+              <img src="/discord-icon.png">
+            </button>
+          </a>
+        </div>
+        
+        <div class="divBottom">
+
+          <p class="textLogo">Istudy</p>
+
+          <div class="divText">
+            <p class="TextBottom">Esqueça tudo Menos a Matéria.</p>
+          </div>
+
+
+        </div>
+
+         
+     
+      </div>
+
+      <script>
+        const hamburguer = document.querySelector('.hamburguer')
+        const menu = document.querySelector('.conteudoNavbar')
+        hamburguer.addEventListener('click', () => {
+          menu.classList.toggle('active')
+          hamburguer.classList.toggle('active')
+        })
+      </script>
+
+  </body>
+</html>
